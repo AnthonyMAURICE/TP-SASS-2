@@ -1,0 +1,13 @@
+button{
+    background-color: black;
+    color: $color-primary;
+    margin-top: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 30px 30px;
+    letter-spacing: 5px;
+    &:hover{
+        background-color: $color-background;
+        color: $color-secondary;
+    }
+}

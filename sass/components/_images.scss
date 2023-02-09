@@ -1,0 +1,101 @@
+.background-image-menu{
+    position: absolute;
+    bottom: 0;
+}
+
+.plate{
+    padding-top: 10px;
+    margin: 15px 0;
+}
+
+.discover-plate{
+    padding: 25px 0 25px 0;
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.discover-img{
+    position: relative;
+    bottom: 85px;
+    width: 50%;
+}
+
+.first-column-row{
+    .event-image{
+        img{
+            position: relative;
+            width: 100%;
+            height: 250px;
+            bottom: 7%;
+        }
+    }
+}
+
+.second-column{
+    .event-image{
+        img{
+            width: 100%;
+            height: 530px;
+            margin: 30px 0 30px 10px;
+        }
+    }
+}
+
+.pic-caption{
+    position: relative;
+    background-color: $color-background;
+    padding: 15px 40px 85px 40px;
+    width: 50%;
+    height: 50%;
+    right: 65%;
+    top: 25%;
+    color: $color-primary;
+    text-align: center;
+}
+
+.pic-caption2{
+    background-color: $color-background;
+    padding: 20px 25px;
+    width: 20%;
+    height: 20%;
+    color: $color-primary;
+    text-align: center;
+}
+
+.pic-caption, .pic-caption2{
+    p{
+        text-align: center;
+        font-size: large;
+    }
+}
+
+
+
+
+footer{
+    .testimony{
+        .testimony-text{
+            figure{
+                position: relative;
+                bottom: 15%;
+                margin-bottom: 60px;
+            }
+        }
+        .map{
+            .google-map{
+                position: relative;
+                bottom: 45%;
+            }
+        }
+    }
+    .footer-wrapper{
+        .footer-text{
+            background-image: url(../../img/bg-footer.jpg);
+        }
+    }
+}
+
+

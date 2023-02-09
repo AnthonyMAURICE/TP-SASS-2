@@ -1,0 +1,242 @@
+/* Typographie, général */
+
+header{
+    color: $color-primary;
+    
+}
+
+a{
+    text-decoration: none;
+    color: $color-primary;
+}
+
+h2{
+    font-family: 'Allura', cursive;
+    color: $color-secondary;
+    font-size: 55px;
+    height: 45px;
+    font-weight: 400;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+figcaption{
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+    }
+    a{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        color: $color-background;
+    }
+    
+}
+
+footer{
+    .footer-wrapper{
+        h2{
+            font-size: 50px;
+        }
+        p{
+            color: $color-primary;
+            font-size: 18px;
+            line-height: 2;
+        }
+        h3{
+            color: $color-primary;
+        }
+        a{
+            color: $color-footer;
+            &:hover{
+                color: $color-secondary;
+                font-size: large;
+            }
+        }
+    }
+}
+
+/* Typographie, particulier */
+
+.logo{
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+    a{
+        &:hover{
+            color: $color-secondary;
+        }
+    }
+    
+}
+
+.menu-desc{
+    a{
+        color: $color-background;
+    }
+}
+
+.store{
+    font-weight: 900;
+}
+
+.presentation{
+    h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 70px;
+        letter-spacing: 7px;
+    }
+    p{
+        letter-spacing: 5px;
+    }
+}
+
+.discover{
+    .discover-title{
+        text-align: center;
+        h2{
+            font-size: 40px;
+            font-weight: 400;
+        }
+        h3{
+            font-size: 25px;
+        }
+    }
+    .discover-text{
+        .discover-text-paragraph{
+            text-align: center;
+            font-size: large;
+        }
+        .cook{
+            color: $color-tertiary;
+            font-weight: 900;
+        }
+    }
+}
+
+.menu-nav-elements{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.price{
+    color: $color-secondary;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.menu{
+    .menu-wrapper{
+        .menu-title{
+            h2{
+                font-size: 40px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+.menu-desc{
+    letter-spacing: normal;
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 20px;
+        width: 85%;
+    }
+}
+
+.booking{
+    .booking-wrapper{
+        .booking-time{
+            .booking-hours{
+                h2{
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+    .booking-days{
+        color: $color-secondary;
+    }
+    .phone-number{
+        color: $color-secondary;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .booking-form{
+        h2{
+            font-size: 50px;
+            height: 40px;
+        }
+        h3{
+            font-size: 35px;
+            font-weight: 900;
+        }
+    }
+}
+
+.event-title{
+    h2{
+        font-size: 45px;
+        height: 30px;
+    }
+    h3{
+        font-size: 40px;
+        color: $color-primary;
+    }
+}
+
+.loc{
+    color: $color-tertiary;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.event-date{
+    font-size: xx-large;
+}
+
+footer{
+    .testimony{
+        .testimony-text{
+            font-size: 25px;
+            .testimony-text-quote{
+                font-family: 'Roboto', sans-serif;
+                line-height: 2;
+                font-size: 20px;
+                text-align: center;
+                .quote{
+                    font-size: 30px;
+
+                }
+            }
+            h3{
+                font-size: 35px;
+                font-family: 'Roboto', sans-serif;
+            }
+            .position-ceo{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+

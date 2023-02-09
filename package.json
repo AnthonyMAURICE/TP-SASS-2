@@ -1,0 +1,11 @@
+{
+  "name": "tp-sass-2-am",
+  "version": "1.0.0",
+  "description": "TP SASS 2 The Resto",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "Anthony MAURICE",
+  "license": "ISC"
+}

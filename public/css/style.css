@@ -1,0 +1,1091 @@
+@charset "UTF-8";
+/* Typographie, général */
+header {
+  color: rgb(238, 238, 238);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+}
+
+h2 {
+  font-family: "Allura", cursive;
+  color: rgb(166, 114, 69);
+  font-size: 55px;
+  height: 45px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+figcaption h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+figcaption a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: rgb(33, 32, 30);
+}
+
+footer .footer-wrapper h2 {
+  font-size: 50px;
+}
+footer .footer-wrapper p {
+  color: rgb(238, 238, 238);
+  font-size: 18px;
+  line-height: 2;
+}
+footer .footer-wrapper h3 {
+  color: rgb(238, 238, 238);
+}
+footer .footer-wrapper a {
+  color: rgb(89, 89, 86);
+}
+footer .footer-wrapper a:hover {
+  color: rgb(166, 114, 69);
+  font-size: large;
+}
+
+/* Typographie, particulier */
+.logo {
+  font-family: "Allura", cursive;
+  font-size: 50px;
+}
+.logo a:hover {
+  color: rgb(166, 114, 69);
+}
+
+.menu-desc a {
+  color: rgb(33, 32, 30);
+}
+
+.store {
+  font-weight: 900;
+}
+
+.presentation h2 {
+  font-size: 50px;
+  font-weight: 400;
+}
+.presentation h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  letter-spacing: 7px;
+}
+.presentation p {
+  letter-spacing: 5px;
+}
+
+.discover .discover-title {
+  text-align: center;
+}
+.discover .discover-title h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.discover .discover-title h3 {
+  font-size: 25px;
+}
+.discover .discover-text .discover-text-paragraph {
+  text-align: center;
+  font-size: large;
+}
+.discover .discover-text .cook {
+  color: rgb(187, 200, 218);
+  font-weight: 900;
+}
+
+.menu-nav-elements {
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.price {
+  color: rgb(166, 114, 69);
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.menu .menu-wrapper .menu-title h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.menu-desc {
+  letter-spacing: normal;
+}
+.menu-desc h3 {
+  font-size: 15px;
+}
+.menu-desc p {
+  font-size: 20px;
+  width: 85%;
+}
+
+.booking .booking-wrapper .booking-time .booking-hours h2 {
+  font-size: 50px;
+}
+.booking .booking-days {
+  color: rgb(166, 114, 69);
+}
+.booking .phone-number {
+  color: rgb(166, 114, 69);
+  font-size: 20px;
+  font-weight: 900;
+}
+.booking .booking-form h2 {
+  font-size: 50px;
+  height: 40px;
+}
+.booking .booking-form h3 {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.event-title h2 {
+  font-size: 45px;
+  height: 30px;
+}
+.event-title h3 {
+  font-size: 40px;
+  color: rgb(238, 238, 238);
+}
+
+.loc {
+  color: rgb(187, 200, 218);
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.event-date {
+  font-size: xx-large;
+}
+
+footer .testimony .testimony-text {
+  font-size: 25px;
+}
+footer .testimony .testimony-text .testimony-text-quote {
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  font-size: 20px;
+  text-align: center;
+}
+footer .testimony .testimony-text .testimony-text-quote .quote {
+  font-size: 30px;
+}
+footer .testimony .testimony-text h3 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+}
+footer .testimony .testimony-text .position-ceo {
+  font-size: 25px;
+}
+
+button {
+  background-color: black;
+  color: rgb(238, 238, 238);
+  margin-top: 20px;
+  font-weight: 700;
+  padding: 20px 40px;
+  border-radius: 30px 30px;
+  letter-spacing: 5px;
+}
+button:hover {
+  background-color: rgb(33, 32, 30);
+  color: rgb(166, 114, 69);
+}
+
+.background-image-menu {
+  position: absolute;
+  bottom: 0;
+}
+
+.plate {
+  padding-top: 10px;
+  margin: 15px 0;
+}
+
+.discover-plate {
+  padding: 25px 0 25px 0;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.discover-img {
+  position: relative;
+  bottom: 85px;
+  width: 50%;
+}
+
+.first-column-row .event-image img {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  bottom: 7%;
+}
+
+.second-column .event-image img {
+  width: 100%;
+  height: 530px;
+  margin: 30px 0 30px 10px;
+}
+
+.pic-caption {
+  position: relative;
+  background-color: rgb(33, 32, 30);
+  padding: 15px 40px 85px 40px;
+  width: 50%;
+  height: 50%;
+  right: 65%;
+  top: 25%;
+  color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+.pic-caption2 {
+  background-color: rgb(33, 32, 30);
+  padding: 20px 25px;
+  width: 20%;
+  height: 20%;
+  color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+.pic-caption p, .pic-caption2 p {
+  text-align: center;
+  font-size: large;
+}
+
+footer .testimony .testimony-text figure {
+  position: relative;
+  bottom: 15%;
+  margin-bottom: 60px;
+}
+footer .testimony .map .google-map {
+  position: relative;
+  bottom: 45%;
+}
+footer .footer-wrapper .footer-text {
+  background-image: url(../../img/bg-footer.jpg);
+}
+
+/* reset CSS et généralités*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  position: absolute;
+  background-color: rgb(33, 32, 30);
+}
+
+/* header */
+header {
+  height: 910px;
+  position: relative;
+  padding-top: 25px;
+  background-image: url(../../img/bg-slider-06.jpg);
+  background-position-x: center;
+}
+header .nav-wrapper {
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .nav-wrapper nav {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+header .nav-wrapper nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: rgb(166, 114, 69);
+}
+header .nav-wrapper .social-links {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  width: 8%;
+}
+header .nav-wrapper .social-links a {
+  margin: 0 10px;
+}
+header .nav-wrapper .social-links a:hover {
+  font-size: large;
+  color: rgb(166, 114, 69);
+}
+header .presentation {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  position: relative;
+  top: 23%;
+}
+header .presentation h2 {
+  height: 30px;
+}
+header .presentation img {
+  margin: 30px;
+}
+header .presentation img:hover + p {
+  color: rgb(166, 114, 69);
+  font-weight: 900;
+}
+header .presentation p {
+  font-size: 20px;
+}
+
+/* fin header */
+/* section 1 */
+.discover {
+  display: flex;
+  height: 560px;
+  overflow: hidden;
+  background-color: rgb(238, 238, 238);
+}
+.discover .discover-title h2 {
+  height: 40px;
+}
+.discover .discover-title h3 {
+  height: 25px;
+}
+.discover .discover-text {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 20px;
+  padding: 30px;
+  width: 50%;
+  border: 1px dashed rgb(166, 114, 69);
+}
+.discover .discover-text .discover-text-paragraph {
+  padding: 0 30px;
+}
+.discover .discover-text .discover-head {
+  padding: 25px;
+  overflow: hidden;
+}
+.discover .discover-text .discover-head img {
+  margin-top: 30px;
+}
+
+/* section 2 : menu */
+.menu {
+  overflow: hidden;
+  position: relative;
+  height: 1140px;
+}
+.menu .menu-wrapper .menu-title {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.menu .menu-wrapper .menu-title h2 {
+  padding: 50px 0 30px 0;
+}
+.menu .menu-wrapper .menu-title img {
+  padding-top: 30px;
+}
+.menu .menu-wrapper .menu-title .menu-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.menu .menu-wrapper .menu-title .menu-nav a:hover {
+  color: rgb(166, 114, 69);
+}
+.menu .menu-wrapper .menu-display {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+  z-index: 9999;
+  overflow: hidden;
+}
+.menu .menu-wrapper .menu-display .menu-display-dishes {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 15px;
+  justify-content: center;
+  background-color: rgb(238, 238, 238);
+  border-top: 4px solid rgb(166, 114, 69);
+}
+.menu .menu-wrapper .menu-display .menu-display-dishes .dish {
+  display: flex;
+  margin: 0 15px;
+  height: 185px;
+  padding: 25px 0px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed rgb(187, 200, 218);
+}
+.menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic {
+  overflow: hidden;
+}
+.menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic img {
+  border-radius: 50%;
+}
+.menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
+  padding-left: 15px;
+  width: 300px;
+}
+
+/* fin section 2 */
+/* section 3 : booking */
+.booking {
+  margin: 80px 0 100px 0;
+}
+.booking .booking-wrapper {
+  display: flex;
+  width: 66%;
+  margin: auto;
+  height: 600px;
+}
+.booking .booking-wrapper .booking-time {
+  width: 30%;
+  background-color: black;
+}
+.booking .booking-wrapper .booking-time .booking-hours {
+  height: 550px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: rgb(238, 238, 238);
+  padding: 25px;
+  margin: 25px;
+  border: 1px dashed rgb(238, 238, 238);
+}
+.booking .booking-wrapper .booking-time .booking-hours h2 {
+  height: 40px;
+}
+.booking .booking-wrapper .booking-time .booking-hours .booking-open {
+  font-size: 30px;
+}
+.booking .booking-wrapper .booking-time .booking-hours .booking-hours-title img {
+  margin: 15px;
+}
+.booking .booking-wrapper .booking-time .booking-hours .booking-hours-open {
+  margin-bottom: 25px;
+}
+.booking .booking-wrapper .booking-time .booking-hours .booking-hours-open .booking-days {
+  font-size: 22px;
+  margin: 15px 0;
+}
+.booking .booking-wrapper .booking-form {
+  width: 70%;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.booking .booking-wrapper .booking-form img {
+  margin: 15px;
+}
+.booking .booking-wrapper .booking-form .row {
+  display: flex;
+}
+.booking .booking-wrapper .booking-form .row input, .booking .booking-wrapper .booking-form .row select {
+  background-color: rgb(238, 238, 238);
+  border: none;
+  border-bottom: 1px solid rgb(187, 200, 218);
+  width: 150px;
+  padding: 10px;
+  margin: 20px;
+}
+.booking .booking-wrapper .booking-form .row input option, .booking .booking-wrapper .booking-form .row select option {
+  font-size: 14px;
+}
+
+/* fin section 3 */
+/* section 4 : event */
+.event-wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  height: 900px;
+  width: 65%;
+  margin: auto;
+}
+.event-wrapper .event-title {
+  margin: 20px;
+}
+.event-wrapper .event-title h3 {
+  padding-top: 10px;
+}
+.event-wrapper .event-figures .event-figures-columns {
+  display: flex;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-first {
+  height: 500px;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row {
+  display: flex;
+  margin: 30px 10px 30px 0;
+  background-color: rgb(238, 238, 238);
+  align-items: center;
+  text-align: left;
+  width: 745px;
+  height: 250px;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row figure {
+  height: 220px;
+  width: 350px;
+  display: flex;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row figcaption h3 {
+  margin-left: 10px;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row figcaption .loc {
+  padding: 10px 0;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-second {
+  display: flex;
+  flex-flow: column;
+  height: 500px;
+  margin-left: 10px;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column .event-image {
+  display: flex;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column figcaption {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  width: 400px;
+  height: 450px;
+  left: 10%;
+  bottom: 50%;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column figcaption .pic-caption2-text {
+  display: flex;
+  flex-flow: column;
+  height: 60%;
+  justify-content: center;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column figcaption .pic-caption2-text h3 {
+  padding: 0 40px;
+}
+.event-wrapper .event-figures .fa-clock {
+  padding: 0 10px;
+}
+
+/* footer */
+footer {
+  height: 1165px;
+  overflow: hidden;
+}
+footer .testimony {
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+footer .testimony .testimony-text {
+  background-color: rgb(238, 238, 238);
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  position: relative;
+  top: 35px;
+  z-index: 9999;
+}
+footer .testimony .testimony-text .testimony-text-quote {
+  position: relative;
+  bottom: 15%;
+  padding-top: 10px;
+  width: 85%;
+}
+footer .testimony .testimony-text .position-ceo {
+  padding: 20px 0;
+  color: rgb(166, 114, 69);
+}
+footer .testimony .map {
+  overflow: hidden;
+  position: relative;
+  bottom: 120px;
+  height: 710px;
+}
+footer .footer-wrapper {
+  display: flex;
+  height: 300px;
+  position: relative;
+  bottom: 390px;
+}
+footer .footer-wrapper .footer-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 17%;
+  padding-right: 5%;
+  width: 50%;
+}
+footer .footer-wrapper .footer-text h2 {
+  padding: 65px 0;
+}
+footer .footer-wrapper .footer-newsletter {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  width: 50%;
+  background-color: rgb(33, 32, 30);
+  padding: 30px 65px;
+}
+footer .footer-wrapper .footer-newsletter .form h3 {
+  padding: 15px 0;
+}
+footer .footer-wrapper .footer-newsletter .form input {
+  background-color: rgb(33, 32, 30);
+  height: 35px;
+  width: 280px;
+  padding: 10px;
+  border: 1px groove rgb(166, 114, 69);
+}
+footer .footer-wrapper .footer-newsletter .followers {
+  display: flex;
+  align-items: center;
+}
+footer .footer-wrapper .footer-newsletter .followers a {
+  padding: 0 20px;
+}
+
+/* media querries */
+@media screen and (max-width: 1280px) {
+  /* header */
+  header .nav-wrapper .social-links {
+    width: 10%;
+  }
+  /* section 1 */
+  .discover {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .discover .discover-text {
+    width: 50%;
+    position: relative;
+    top: 86%;
+    z-index: 9999;
+    background-color: rgb(238, 238, 238);
+  }
+  .discover .discover-img {
+    width: 100%;
+    bottom: 20%;
+  }
+  .discover .discover-img img {
+    width: 100%;
+  }
+  /* section 2 */
+  .menu .menu-wrapper .menu-display {
+    width: 80%;
+  }
+  /* section 3 */
+  .booking .booking-wrapper {
+    width: 80%;
+  }
+  .booking .booking-wrapper .booking-form .booking-form-inputs {
+    width: 80%;
+  }
+  .booking .booking-wrapper .booking-form .booking-form-inputs .row input, .booking .booking-wrapper .booking-form .booking-form-inputs .row select {
+    width: 30%;
+  }
+  /* section 4 */
+  .event {
+    height: 1500px;
+  }
+  .event-wrapper {
+    height: 1700px;
+  }
+  .event-wrapper .event-figures .event-figures-columns {
+    flex-flow: column;
+    justify-content: center;
+  }
+  .event-wrapper .event-figures .event-figures-columns .event-figures-second {
+    position: relative;
+    right: 10px;
+  }
+  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column {
+    position: relative;
+    top: 15%;
+  }
+  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column img {
+    margin: 30px 0;
+  }
+  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column figcaption {
+    margin: 0;
+    left: 25%;
+  }
+  /* footer */
+  footer {
+    height: 1300px;
+  }
+  footer .testimony .testimony-text {
+    width: 80%;
+    height: 540px;
+  }
+  footer .testimony .testimony-text figure {
+    bottom: 16%;
+  }
+  footer .footer-wrapper {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* header */
+  header .nav-wrapper {
+    padding: 0 15px;
+  }
+  header .nav-wrapper nav a {
+    font-size: 13px;
+    padding: 0 5px;
+  }
+  header .nav-wrapper .social-links {
+    display: flex;
+  }
+  /* section 1 */
+  .discover {
+    height: 600px;
+  }
+  .discover .discover-text {
+    width: 90%;
+    position: relative;
+    top: 0px;
+  }
+  .discover p {
+    padding-bottom: 20px;
+  }
+  .discover .discover-img {
+    display: none;
+  }
+  /* section 2 */
+  .menu {
+    height: 1750px;
+  }
+  .menu .menu-wrapper {
+    display: grid;
+  }
+  .menu .menu-wrapper .menu-title {
+    width: 80%;
+  }
+  .menu .menu-wrapper .menu-title .menu-nav {
+    font-size: 15px;
+    justify-content: space-around;
+  }
+  .menu .menu-wrapper .menu-display {
+    width: 70%;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes {
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
+    width: 75%;
+    height: 160px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
+    width: 250px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc h3 {
+    font-size: 15px;
+    line-height: 1;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
+    padding: 5px 0;
+    font-size: 15px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic {
+    width: 70px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic img {
+    width: 70px;
+    height: 70px;
+  }
+  .menu .menu-wrapper .background-image-menu {
+    justify-self: center;
+    bottom: 3%;
+    padding-left: 80px;
+  }
+  /* section 3 */
+  .booking {
+    height: 1450px;
+    padding: 0;
+  }
+  .booking .booking-wrapper {
+    flex-flow: column;
+    height: 1500px;
+    width: 70%;
+  }
+  .booking .booking-wrapper .booking-time {
+    width: 100%;
+  }
+  .booking .booking-wrapper .booking-form {
+    width: 100%;
+    height: 800px;
+    padding-bottom: 35px;
+  }
+  .booking .booking-wrapper .booking-form .booking-form-title {
+    padding-top: 25px;
+  }
+  .booking .booking-wrapper .booking-form .booking-form-inputs .row {
+    flex-flow: column;
+    align-items: center;
+  }
+  .booking .booking-wrapper .booking-form .booking-form-inputs .row input, .booking .booking-wrapper .booking-form .booking-form-inputs .row select {
+    width: 85%;
+    max-width: 300px;
+    text-align: center;
+  }
+  /* section 4, en display: none */
+  .event {
+    display: none;
+  }
+  /* footer */
+  footer {
+    height: 1600px;
+  }
+  footer .testimony .testimony-text {
+    width: 70%;
+    height: 700px;
+  }
+  footer .testimony .testimony-text figure {
+    bottom: 18%;
+  }
+  footer .testimony .map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+  }
+  footer .testimony .map .google-map {
+    bottom: 20%;
+  }
+  footer .footer-wrapper {
+    height: 450px;
+  }
+  footer .footer-wrapper .footer-text {
+    padding-left: 5%;
+  }
+  footer .footer-wrapper .footer-newsletter {
+    padding: 70px 40px;
+    justify-content: flex-start;
+  }
+  footer .footer-wrapper .footer-newsletter .followers {
+    padding: 80px 0;
+  }
+  footer .footer-wrapper .footer-newsletter .followers h3 {
+    padding-right: 10px;
+  }
+  footer .footer-wrapper .footer-newsletter .followers a {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
+    width: 100%;
+  }
+  footer .testimony .testimony-text figure {
+    bottom: 14%;
+  }
+}
+/* mobiles */
+@media screen and (max-width: 600px) {
+  header .nav-wrapper {
+    width: 80%;
+    justify-content: space-around;
+  }
+  header .nav-wrapper nav {
+    display: none;
+  }
+  header .nav-wrapper .social-links {
+    display: flex;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
+    width: 90%;
+  }
+  footer .testimony .testimony-text {
+    height: 800px;
+  }
+  footer .testimony .testimony-text figure {
+    bottom: 10%;
+  }
+  footer .footer-wrapper .footer-text {
+    display: none;
+  }
+  footer .footer-wrapper .footer-newsletter {
+    width: 100%;
+    padding: 15px 30px 30px 30px;
+    justify-content: flex-start;
+  }
+  footer .footer-wrapper .footer-newsletter .form {
+    padding-bottom: 50px;
+  }
+  footer .footer-wrapper .footer-newsletter .form input {
+    width: 150px;
+  }
+  footer .footer-wrapper .footer-newsletter .followers {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* header */
+  header .presentation {
+    text-align: center;
+    top: 20%;
+  }
+  header .presentation h1 {
+    font-size: 50px;
+  }
+  header .presentation h2 {
+    height: 60px;
+  }
+  header .presentation p {
+    width: 80%;
+    word-spacing: 8px;
+    letter-spacing: 4px;
+    font-size: 15px;
+  }
+  .discover {
+    height: 700px;
+  }
+  .menu .menu-wrapper .menu-display {
+    width: 80%;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
+    margin: 0;
+    width: 80%;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic {
+    width: 40%;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic .img {
+    height: 75px;
+    width: 75px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
+    width: 230px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc h3 {
+    font-size: 10px;
+    width: 85%;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
+    font-size: 10px;
+  }
+  .booking .booking-wrapper {
+    width: 80%;
+  }
+  .booking .booking-wrapper .booking-time .booking-hours .booking-hours-open h3, .booking .booking-wrapper .booking-time .booking-hours .booking-hours-open p {
+    font-size: 15px;
+  }
+  footer {
+    height: 1850px;
+  }
+  footer .testimony {
+    padding-top: 100px;
+  }
+  footer .testimony .testimony-text {
+    width: 90%;
+    height: 750px;
+  }
+  footer .testimony .testimony-text figure {
+    bottom: 6%;
+  }
+  footer .testimony .testimony-text .testimony-ceo {
+    position: relative;
+    bottom: 11%;
+  }
+  footer .testimony .map {
+    height: 1030px;
+    bottom: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .discover {
+    height: 750px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
+    justify-content: space-evenly;
+    width: 85%;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic .img {
+    height: 50px;
+    width: 50px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
+    width: 220px;
+    padding-left: 0;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc h3 {
+    font-size: 12px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
+    font-size: 14px;
+    width: 85%;
+  }
+  footer {
+    height: 1900px;
+  }
+  footer .testimony .testimony-text {
+    height: 900px;
+  }
+  footer .testimony .testimony-text figure {
+    bottom: 12%;
+  }
+}
+@media screen and (max-width: 350px) {
+  header .presentation {
+    top: 22%;
+  }
+  header .presentation h1 {
+    font-size: 30px;
+  }
+  header .presentation h2 {
+    font-size: 30px;
+    height: 30px;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
+    width: 180px;
+  }
+  footer .testimony .testimony-text figure {
+    bottom: 7%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
