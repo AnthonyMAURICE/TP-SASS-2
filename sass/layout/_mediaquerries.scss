@@ -10,29 +10,6 @@
         }
     }
     
-    /* section 1 */
-
-    .discover{
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        .discover-text{
-            width: 50%;
-            position: relative;
-            top: 86%;
-            z-index: 9999;
-            background-color: $color-primary;
-        }
-        .discover-img{
-            width: 100%;
-            bottom: 20%;
-            img{
-                width: 100%;
-                
-            }
-        }
-    }
-
     /* section 2 */
 
     .menu{
@@ -42,6 +19,23 @@
             }
         }
     }
+
+    /* section 2 */
+
+    .discover{
+        .discover-text{
+            .discover-head{
+                overflow: visible;
+                padding: 0;
+            }
+        }
+        .discover-img{
+            align-self: center;
+            bottom: 0;
+        }
+    }
+
+    
 
     /* section 3 */
 
@@ -75,20 +69,28 @@
                 flex-flow: column;
                 justify-content: center;
                 .event-figures-second{
-                    position: relative;
-                    right: 10px;
+                    position: initial;
+                    margin: 0;
                     .second-column{
-                        position: relative;
-                        top: 15%;
-                        img{
-                            margin: 30px 0;
+                        display: flex;
+                        align-items: center;
+                        width: 745px;
+                        height: 250px;
+                        overflow: hidden;
+                        margin: 65px 0;
+                        .event-caption{
+                            position: initial;
+                            height: 250px;
                         }
-                        figcaption{
-                            margin: 0;
-                            left: 25%;
+
+                        .event-image{
+                            img{
+                                width: 320px;
+                                height: 250px;
+                                margin: 0;
+                            }
                         }
                     }
-                    
                 }
             }
         }

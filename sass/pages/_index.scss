@@ -289,12 +289,12 @@ header{
                     text-align: left;
                     width: 745px;
                     height: 250px;
-                    figure{
+                    .event-image{
                         height: 220px;
                         width: 350px;
                         display: flex;
                     }
-                    figcaption{
+                    .event-caption{
                         h3{
                             margin-left: 10px;
                         }
@@ -313,13 +313,13 @@ header{
                     .event-image{
                         display: flex;
                     }
-                    figcaption{
+                    .event-caption{
                         position: relative;
                         display: flex;
                         flex-flow: column;
                         align-items: center;
                         background-color: $color-primary;
-                        width: 400px;
+                        width: 85%;
                         height: 450px;
                         left: 10%;
                         bottom: 50%;

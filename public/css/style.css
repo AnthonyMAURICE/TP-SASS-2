@@ -264,7 +264,7 @@ button:hover {
   background-color: rgb(33, 32, 30);
   padding: 20px 25px;
   width: 20%;
-  height: 20%;
+  height: 25%;
   color: rgb(238, 238, 238);
   text-align: center;
 }
@@ -559,15 +559,15 @@ header .presentation p {
   width: 745px;
   height: 250px;
 }
-.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row figure {
+.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row .event-image {
   height: 220px;
   width: 350px;
   display: flex;
 }
-.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row figcaption h3 {
+.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row .event-caption h3 {
   margin-left: 10px;
 }
-.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row figcaption .loc {
+.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row .event-caption .loc {
   padding: 10px 0;
 }
 .event-wrapper .event-figures .event-figures-columns .event-figures-second {
@@ -579,24 +579,24 @@ header .presentation p {
 .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column .event-image {
   display: flex;
 }
-.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column figcaption {
+.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column .event-caption {
   position: relative;
   display: flex;
   flex-flow: column;
   align-items: center;
   background-color: rgb(238, 238, 238);
-  width: 400px;
+  width: 85%;
   height: 450px;
   left: 10%;
   bottom: 50%;
 }
-.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column figcaption .pic-caption2-text {
+.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column .event-caption .pic-caption2-text {
   display: flex;
   flex-flow: column;
   height: 60%;
   justify-content: center;
 }
-.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column figcaption .pic-caption2-text h3 {
+.event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column .event-caption .pic-caption2-text h3 {
   padding: 0 40px;
 }
 .event-wrapper .event-figures .fa-clock {
@@ -692,29 +692,18 @@ footer .footer-wrapper .footer-newsletter .followers a {
   header .nav-wrapper .social-links {
     width: 10%;
   }
-  /* section 1 */
-  .discover {
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .discover .discover-text {
-    width: 50%;
-    position: relative;
-    top: 86%;
-    z-index: 9999;
-    background-color: rgb(238, 238, 238);
-  }
-  .discover .discover-img {
-    width: 100%;
-    bottom: 20%;
-  }
-  .discover .discover-img img {
-    width: 100%;
-  }
   /* section 2 */
   .menu .menu-wrapper .menu-display {
     width: 80%;
+  }
+  /* section 2 */
+  .discover .discover-text .discover-head {
+    overflow: visible;
+    padding: 0;
+  }
+  .discover .discover-img {
+    align-self: center;
+    bottom: 0;
   }
   /* section 3 */
   .booking .booking-wrapper {
@@ -738,19 +727,25 @@ footer .footer-wrapper .footer-newsletter .followers a {
     justify-content: center;
   }
   .event-wrapper .event-figures .event-figures-columns .event-figures-second {
-    position: relative;
-    right: 10px;
+    position: initial;
+    margin: 0;
   }
   .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column {
-    position: relative;
-    top: 15%;
+    display: flex;
+    align-items: center;
+    width: 745px;
+    height: 250px;
+    overflow: hidden;
+    margin: 65px 0;
   }
-  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column img {
-    margin: 30px 0;
+  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column .event-caption {
+    position: initial;
+    height: 250px;
   }
-  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column figcaption {
+  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column .event-image img {
+    width: 320px;
+    height: 250px;
     margin: 0;
-    left: 25%;
   }
   /* footer */
   footer {
