@@ -295,11 +295,8 @@ footer .footer-wrapper .footer-text {
   padding: 0;
 }
 
-html {
-  width: 100%;
-}
-
 body {
+  width: 100%;
   position: absolute;
   background-color: rgb(33, 32, 30);
 }
