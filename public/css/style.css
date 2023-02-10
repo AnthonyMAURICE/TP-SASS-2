@@ -698,8 +698,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   .discover .discover-text {
     width: 100%;
-    position: relative;
-    top: 0px;
   }
   .discover p {
     padding-bottom: 20px;
@@ -720,10 +718,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   .booking .booking-wrapper .booking-form .booking-form-inputs .row input, .booking .booking-wrapper .booking-form .booking-form-inputs .row select {
     width: 30%;
-  }
-  /* section 4 */
-  .event {
-    height: 1500px;
   }
   /* section 4, en display: none */
   .event {
@@ -763,9 +757,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   .menu {
     height: 1750px;
   }
-  .menu .menu-wrapper {
-    display: grid;
-  }
   .menu .menu-wrapper .menu-title {
     width: 80%;
   }
@@ -778,10 +769,8 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes {
     grid-template-columns: auto;
-    justify-items: center;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
-    width: 75%;
     height: 160px;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
@@ -803,9 +792,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
     height: 70px;
   }
   .menu .menu-wrapper .background-image-menu {
-    justify-self: center;
     bottom: 3%;
-    padding-left: 80px;
   }
   /* section 3 */
   .booking {
@@ -982,7 +969,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
     font-size: 15px;
   }
   footer {
-    height: 1850px;
+    height: 1900px;
   }
   footer .testimony {
     padding-top: 100px;
@@ -1025,9 +1012,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
     font-size: 14px;
     width: 85%;
-  }
-  footer {
-    height: 1900px;
   }
   footer .testimony .testimony-text {
     height: 900px;

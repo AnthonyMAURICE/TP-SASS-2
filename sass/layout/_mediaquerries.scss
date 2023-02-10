@@ -16,15 +16,12 @@
         height: 600px;
         .discover-text{
             width: 100%;
-            position: relative;
-            top: 0px;
         }
         p{
             padding-bottom: 20px;
         }
         .discover-img{
             display: none;
-            
         }
     }
 
@@ -38,9 +35,6 @@
             }
         }
     }
-
-    
-    
 
     /* section 3 */
 
@@ -56,23 +50,15 @@
                         }
                     }
                 }
-
             }
         }
     }
 
+    /* section 4, en display: none */
 
-    /* section 4 */
-    .event{
-        height: 1500px;
-    }
-
-        /* section 4, en display: none */
     .event{
         display: none;
-        
     }
-
 
     /* footer */
 
@@ -122,7 +108,6 @@
     .menu{
         height: 1750px;
         .menu-wrapper{
-            display: grid;
             .menu-title{
                 width: 80%;
                 .menu-nav{
@@ -134,9 +119,7 @@
                 width: 70%;
                 .menu-display-dishes{
                     grid-template-columns: auto;
-                    justify-items: center;
                     .dish{
-                        width: 75%;
                         height: 160px;
                         .menu-desc{
                             width: 250px;
@@ -162,9 +145,7 @@
                 
             }
             .background-image-menu{
-                justify-self: center;
                 bottom: 3%;
-                padding-left: 80px;
             }
         }
     }
@@ -382,7 +363,6 @@
     
     .menu{
         .menu-wrapper{
-            
             .menu-display{
                 width: 80%;
                 .menu-display-dishes{
@@ -429,7 +409,7 @@
 
     
     footer{
-        height: 1850px;
+        height: 1900px;
         .testimony{
             padding-top: 100px;
             .testimony-text{
@@ -492,7 +472,6 @@
     }
 
     footer{
-        height: 1900px;
         .testimony{
             .testimony-text{
                 height: 900px;
