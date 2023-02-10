@@ -118,18 +118,22 @@
             .menu-display{
                 width: 70%;
                 .menu-display-dishes{
-                    grid-template-columns: auto;
+                    flex-flow: column;
+                    align-items: center;
                     .dish{
                         height: 160px;
+                        width: 100%;
+                        padding: 0 5%;
                         .menu-desc{
-                            width: 250px;
+                            width: 60%;
+                            padding-left: 15px;
                             h3{
-                                font-size: 15px;
+                                font-size: 20px;
                                 line-height: 1;
                             }
                             p{
                                 padding: 5px 0;
-                                font-size: 15px;
+                                font-size: 20px;
                             }
                         }
                         .dish-pic{
@@ -250,18 +254,6 @@
 
 @media screen and (max-width: 800px){
 
-    .menu{
-        .menu-wrapper{
-            .menu-display{
-                .menu-display-dishes{
-                    .dish{
-                        width: 100%;
-                    }
-                }
-            }
-        }
-    }
-
     footer{
         .testimony{
             .testimony-text{
@@ -288,18 +280,6 @@
                 display: flex;
             }
         
-        }
-    }
-
-    .menu{
-        .menu-wrapper{
-            .menu-display{
-                .menu-display-dishes{
-                    .dish{
-                        width: 90%;
-                    }
-                }
-            }
         }
     }
 
@@ -368,22 +348,19 @@
                 .menu-display-dishes{
                     .dish{
                         margin: 0;
-                        width: 80%;
                         .dish-pic{
-                            width: 40%;
                             .img{
                                 height: 75px;
                                 width: 75px;
                             }
                         }
                         .menu-desc{
-                            width: 230px;
                             h3{
-                                font-size: 10px;
+                                font-size: 12px;
                                 width: 85%;
                             }
                             p{
-                                font-size: 10px;
+                                font-size: 12px;
                             }
                         }
                     }
@@ -446,8 +423,8 @@
                 .menu-display-dishes{
                     .dish{
                         justify-content: space-evenly;
-                        width: 85%;
                         .dish-pic{
+                            width: 45%;
                             .img{
                                 height: 50px;
                                 width: 50px;
@@ -455,13 +432,12 @@
                         }
                         .menu-desc{
                             width: 220px;
-                            padding-left: 0;
+                            padding-left: 5px;
                             h3{
                                 font-size: 12px;
                             }
                             p{
-                                font-size: 14px;
-                                width: 85%;
+                                font-size: 12px;
                             }
                         }
                         

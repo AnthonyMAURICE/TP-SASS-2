@@ -428,19 +428,19 @@ header .presentation p {
   position: relative;
   z-index: 9999;
   overflow: hidden;
+  background-color: white;
 }
 .menu .menu-wrapper .menu-display .menu-display-dishes {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
   padding-bottom: 15px;
   justify-content: center;
   background-color: rgb(238, 238, 238);
-  border-top: 4px solid rgb(166, 114, 69);
 }
 .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
   display: flex;
   margin: 0 15px;
   height: 185px;
+  width: 45%;
   padding: 25px 0px;
   justify-content: space-between;
   align-items: center;
@@ -451,10 +451,15 @@ header .presentation p {
 }
 .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic img {
   border-radius: 50%;
+  width: 100%;
 }
 .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
   padding-left: 15px;
   width: 300px;
+}
+.menu .menu-wrapper .menu-display .first-row {
+  padding-top: 10px;
+  border-top: 4px solid rgb(166, 114, 69);
 }
 
 /* fin section 2 */
@@ -768,21 +773,25 @@ footer .footer-wrapper .footer-newsletter .followers a {
     width: 70%;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes {
-    grid-template-columns: auto;
+    flex-flow: column;
+    align-items: center;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
     height: 160px;
+    width: 100%;
+    padding: 0 5%;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
-    width: 250px;
+    width: 60%;
+    padding-left: 15px;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc h3 {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
     padding: 5px 0;
-    font-size: 15px;
+    font-size: 20px;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic {
     width: 70px;
@@ -871,9 +880,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
 }
 @media screen and (max-width: 800px) {
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
-    width: 100%;
-  }
   footer .testimony .testimony-text figure {
     bottom: 14%;
   }
@@ -889,9 +895,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   header .nav-wrapper .social-links {
     display: flex;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
-    width: 90%;
   }
   footer .testimony .testimony-text {
     height: 800px;
@@ -943,24 +946,17 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
     margin: 0;
-    width: 80%;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic {
-    width: 40%;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic .img {
     height: 75px;
     width: 75px;
   }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
-    width: 230px;
-  }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc h3 {
-    font-size: 10px;
+    font-size: 12px;
     width: 85%;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .booking .booking-wrapper {
     width: 80%;
@@ -996,7 +992,9 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
     justify-content: space-evenly;
-    width: 85%;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic {
+    width: 45%;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic .img {
     height: 50px;
@@ -1004,14 +1002,13 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
     width: 220px;
-    padding-left: 0;
+    padding-left: 5px;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc h3 {
     font-size: 12px;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
-    font-size: 14px;
-    width: 85%;
+    font-size: 12px;
   }
   footer .testimony .testimony-text {
     height: 900px;

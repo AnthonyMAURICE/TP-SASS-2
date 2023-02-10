@@ -150,17 +150,18 @@ header{
             position: relative;
             z-index: 9999;
             overflow: hidden;
+            background-color: white;
             .menu-display-dishes{
-                display: grid;
-                grid-template-columns: auto auto;
+                display: flex;
                 padding-bottom: 15px;
                 justify-content: center;
                 background-color: $color-primary;
-                border-top: 4px solid $color-secondary;
+                
                 .dish{
                     display: flex;
                     margin: 0 15px;
                     height: 185px;
+                    width: 45%;
                     padding: 25px 0px;
                     justify-content: space-between;
                     align-items: center;
@@ -169,6 +170,7 @@ header{
                         overflow: hidden;
                         img{
                             border-radius: 50%;
+                            width: 100%;
                         }   
                     }
                     .menu-desc{
@@ -177,6 +179,10 @@ header{
                     }
 
                 }
+            }
+            .first-row{
+                padding-top: 10px;
+                border-top: 4px solid $color-secondary;
             }
         }
     }
