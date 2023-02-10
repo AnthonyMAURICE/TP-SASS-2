@@ -9,6 +9,25 @@
             }
         }
     }
+
+    /* section 1 */
+
+    .discover{
+        height: 600px;
+        .discover-text{
+            width: 100%;
+            position: relative;
+            top: 0px;
+        }
+        p{
+            padding-bottom: 20px;
+        }
+        .discover-img{
+            display: none;
+            
+        }
+    }
+
     
     /* section 2 */
 
@@ -20,21 +39,7 @@
         }
     }
 
-    /* section 2 */
-
-    .discover{
-        .discover-text{
-            .discover-head{
-                overflow: visible;
-                padding: 0;
-            }
-        }
-        .discover-img{
-            align-self: center;
-            bottom: 0;
-        }
-    }
-
+    
     
 
     /* section 3 */
@@ -62,39 +67,12 @@
         height: 1500px;
     }
 
-    .event-wrapper{
-        height: 1700px;
-        .event-figures{
-            .event-figures-columns{
-                flex-flow: column;
-                justify-content: center;
-                .event-figures-second{
-                    position: initial;
-                    margin: 0;
-                    .second-column{
-                        display: flex;
-                        align-items: center;
-                        width: 745px;
-                        height: 250px;
-                        overflow: hidden;
-                        margin: 65px 0;
-                        .event-caption{
-                            position: initial;
-                            height: 250px;
-                        }
-
-                        .event-image{
-                            img{
-                                width: 320px;
-                                height: 250px;
-                                margin: 0;
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        /* section 4, en display: none */
+    .event{
+        display: none;
+        
     }
+
 
     /* footer */
 
@@ -106,6 +84,12 @@
                 height: 540px;
                 figure{
                     bottom: 16%;
+                }
+                
+            }
+        .map{
+            .google-map{
+                right: 25%;
                 }
             }
         }
@@ -130,24 +114,6 @@
             .social-links{
                 display: flex;
             }
-        }
-    }
-
-    /* section 1 */
-
-    .discover{
-        height: 600px;
-        .discover-text{
-            width: 90%;
-            position: relative;
-            top: 0px;
-        }
-        p{
-            padding-bottom: 20px;
-        }
-        .discover-img{
-            display: none;
-            
         }
     }
 
@@ -239,11 +205,6 @@
     }
 
     
-    /* section 4, en display: none */
-    .event{
-        display: none;
-        
-    }
 
     /* footer */
     
@@ -264,7 +225,7 @@
                 height: 900px;
                 .google-map{
                     bottom: 20%;
-                    
+                    right: 0%;
                 }
             }
         }
@@ -291,6 +252,18 @@
         }
         
         
+    }
+}
+
+@media screen and (max-width: 850px){
+    footer{
+        .testimony{
+            .testimony-text{
+                figure{
+                    bottom: 15%;
+                }
+            }
+        }
     }
 }
 

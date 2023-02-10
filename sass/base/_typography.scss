@@ -33,19 +33,6 @@ nav{
     font-size: 15px;
 }
 
-figcaption{
-    h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 28px;
-    }
-    a{
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
-        color: $color-background;
-    }
-    
-}
-
 footer{
     .footer-wrapper{
         h2{
@@ -202,6 +189,19 @@ footer{
         font-size: 40px;
         color: $color-primary;
     }
+}
+
+.event-caption{
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+    }
+    a{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        color: $color-background;
+    }
+    
 }
 
 .loc{

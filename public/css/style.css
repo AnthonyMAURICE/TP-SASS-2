@@ -31,16 +31,6 @@ nav {
   font-size: 15px;
 }
 
-figcaption h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 28px;
-}
-figcaption a {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  color: rgb(33, 32, 30);
-}
-
 footer .footer-wrapper h2 {
   font-size: 50px;
 }
@@ -164,6 +154,16 @@ footer .footer-wrapper a:hover {
 .event-title h3 {
   font-size: 40px;
   color: rgb(238, 238, 238);
+}
+
+.event-caption h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+.event-caption a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: rgb(33, 32, 30);
 }
 
 .loc {
@@ -692,18 +692,24 @@ footer .footer-wrapper .footer-newsletter .followers a {
   header .nav-wrapper .social-links {
     width: 10%;
   }
+  /* section 1 */
+  .discover {
+    height: 600px;
+  }
+  .discover .discover-text {
+    width: 100%;
+    position: relative;
+    top: 0px;
+  }
+  .discover p {
+    padding-bottom: 20px;
+  }
+  .discover .discover-img {
+    display: none;
+  }
   /* section 2 */
   .menu .menu-wrapper .menu-display {
     width: 80%;
-  }
-  /* section 2 */
-  .discover .discover-text .discover-head {
-    overflow: visible;
-    padding: 0;
-  }
-  .discover .discover-img {
-    align-self: center;
-    bottom: 0;
   }
   /* section 3 */
   .booking .booking-wrapper {
@@ -719,33 +725,9 @@ footer .footer-wrapper .footer-newsletter .followers a {
   .event {
     height: 1500px;
   }
-  .event-wrapper {
-    height: 1700px;
-  }
-  .event-wrapper .event-figures .event-figures-columns {
-    flex-flow: column;
-    justify-content: center;
-  }
-  .event-wrapper .event-figures .event-figures-columns .event-figures-second {
-    position: initial;
-    margin: 0;
-  }
-  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column {
-    display: flex;
-    align-items: center;
-    width: 745px;
-    height: 250px;
-    overflow: hidden;
-    margin: 65px 0;
-  }
-  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column .event-caption {
-    position: initial;
-    height: 250px;
-  }
-  .event-wrapper .event-figures .event-figures-columns .event-figures-second .second-column .event-image img {
-    width: 320px;
-    height: 250px;
-    margin: 0;
+  /* section 4, en display: none */
+  .event {
+    display: none;
   }
   /* footer */
   footer {
@@ -757,6 +739,9 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   footer .testimony .testimony-text figure {
     bottom: 16%;
+  }
+  footer .testimony .map .google-map {
+    right: 25%;
   }
   footer .footer-wrapper {
     height: 380px;
@@ -773,21 +758,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   header .nav-wrapper .social-links {
     display: flex;
-  }
-  /* section 1 */
-  .discover {
-    height: 600px;
-  }
-  .discover .discover-text {
-    width: 90%;
-    position: relative;
-    top: 0px;
-  }
-  .discover p {
-    padding-bottom: 20px;
-  }
-  .discover .discover-img {
-    display: none;
   }
   /* section 2 */
   .menu {
@@ -867,10 +837,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
     max-width: 300px;
     text-align: center;
   }
-  /* section 4, en display: none */
-  .event {
-    display: none;
-  }
   /* footer */
   footer {
     height: 1600px;
@@ -890,6 +856,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   footer .testimony .map .google-map {
     bottom: 20%;
+    right: 0%;
   }
   footer .footer-wrapper {
     height: 450px;
@@ -909,6 +876,11 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   footer .footer-wrapper .footer-newsletter .followers a {
     padding: 0 10px;
+  }
+}
+@media screen and (max-width: 850px) {
+  footer .testimony .testimony-text figure {
+    bottom: 15%;
   }
 }
 @media screen and (max-width: 800px) {
