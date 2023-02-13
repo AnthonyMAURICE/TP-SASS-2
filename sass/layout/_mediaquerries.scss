@@ -69,14 +69,9 @@
                 width: 80%;
                 height: 540px;
                 figure{
-                    bottom: 16%;
+                    bottom: 23%;
                 }
                 
-            }
-        .map{
-            .google-map{
-                right: 25%;
-                }
             }
         }
         .footer-wrapper{
@@ -102,7 +97,7 @@
         .testimony{
             .testimony-text{
                 figure{
-                    bottom: 10%;
+                    bottom: 18%;
                 }
             }
         }
@@ -112,57 +107,74 @@
 
 @media screen and (max-width: 996px){
 
-    header{
-        .nav-wrapper{
-            nav{
-                display: none;
-            }
-        }
-    }
+    
 
     .menu{
         height: fit-content;
         .menu-wrapper{
+            .menu-title{
+                width: 80%;
+                .menu-nav{
+                    padding-bottom: 100px;
+                }
+            }
             .menu-display{
                 bottom: 100px;
-                width: 60%;
+                width: 80%;
                 .menu-display-dishes{
                     flex-flow: column;
                     align-items: center;
                     .dish{
                         width: 80%;
+                        height: 165px;
                     }
                 }
             }
         }
     }
-    /*
-    .background-image-menu{
-
-    }
-    */
 
     .booking{
         .booking-wrapper{
             flex-flow: column;
             align-items: center;
             height: fit-content;
-            width: 60%;
+            width: 80%;
             .booking-time, .booking-form{
                 width: 100%;
             }
             .booking-form{
-                height: 600px;
+                height: 800px;
+                h2{
+                    font-size: 35px;
+                    height: 30px;
+                }
+                h3{
+                    font-size: 25px;
+                }
+                .booking-form-inputs{
+                    .row{
+                    flex-flow: column;
+                    align-items: center;
+                        input, select{
+                            width: 75%;
+                        }
+                    }
+                }
+                
             }
         }
     }
 
     footer{
-        height: 1500px;
         .testimony{
             .testimony-text{
-                width: 60%;
-                height: 650px;
+                width: 80%;
+                figure{
+                    bottom: 18%;
+                }
+                .testimony-text-quote{
+                    font-size: 15px;
+                }
             }
         }
         .footer-wrapper{
@@ -172,9 +184,146 @@
             }
             .footer-newsletter{
                 width: 100%;
-                padding-left: 33%;
+                padding-left: 10%;
                 .followers{
                     padding: 40px 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 799px){
+    header{
+        .nav-wrapper{
+            nav{
+                display: none;
+            }
+        }
+        .presentation{
+            top: 22%;
+            h2{
+                height: 45px;
+                font-size: 40px;
+            }
+            h1{
+                font-size: 40px;
+            }
+            p{
+                width: 75%;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+    }
+
+    footer{
+        .testimony{
+            .testimony-text{
+                width: 80%;
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    header{
+        .nav-wrapper{
+            .social-links{
+                a{
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+
+    .discover{
+        .discover-text{
+            .discover-text-paragraph{
+                font-size: 15px;
+                padding: 0;
+            }
+            .discover-plate{
+                padding: 15px 0;
+            }
+        }
+    }
+
+
+    .menu-nav-elements{
+        font-size: 12px;
+    }
+
+    .menu-desc{
+        h3{
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        p{
+            font-size: 12px;
+            width: 90%;
+        }
+    }
+
+    .booking{
+        .booking-wrapper{
+            .booking-time{
+                .booking-hours{
+                    .booking-hours-open{
+                        .booking-days{
+                            font-size: 15px;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                    .phone-number{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        height: 1250px;
+        .testimony{
+            padding-top: 0;
+            
+            .testimony-text{
+                height: 500px;
+                figure{
+                    bottom: 15%;
+                    margin-bottom: 35px;
+                }
+                .testimony-text-quote{
+                    position: relative;
+                    bottom: 10%;
+                    font-size: 12px;
+                }
+                .testimony-ceo{
+                    position: relative;
+                    bottom: 7%;
+                    h3{
+                        font-size: 25px;
+                    }
+                    .position-ceo{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 399px){
+    footer{
+        .testimony{
+            .testimony-text{
+                figure{
+                    bottom: 12%;
                 }
             }
         }

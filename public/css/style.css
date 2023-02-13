@@ -187,13 +187,17 @@ footer .testimony .testimony-text .testimony-text-quote {
   text-align: center;
 }
 footer .testimony .testimony-text .testimony-text-quote .quote {
-  font-size: 30px;
+  font-size: 20px;
 }
-footer .testimony .testimony-text h3 {
+footer .testimony .testimony-text .testimony-ceo {
+  text-align: center;
+  padding-top: 30px;
+}
+footer .testimony .testimony-text .testimony-ceo h3 {
   font-size: 35px;
   font-family: "Roboto", sans-serif;
 }
-footer .testimony .testimony-text .position-ceo {
+footer .testimony .testimony-text .testimony-ceo .position-ceo {
   font-size: 25px;
 }
 
@@ -278,11 +282,10 @@ button:hover {
 footer .testimony .testimony-text figure {
   position: relative;
   bottom: 15%;
-  margin-bottom: 60px;
 }
 footer .testimony .map .google-map {
   position: relative;
-  bottom: 45%;
+  bottom: 38%;
 }
 footer .footer-wrapper .footer-text {
   background-image: url(../../img/bg-footer.jpg);
@@ -614,13 +617,14 @@ header .presentation p {
 
 /* footer */
 footer {
-  height: 1165px;
+  height: 1100px;
   overflow: hidden;
 }
 footer .testimony {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   width: 100%;
-  padding-top: 50px;
-  position: relative;
 }
 footer .testimony .testimony-text {
   background-color: rgb(238, 238, 238);
@@ -630,16 +634,14 @@ footer .testimony .testimony-text {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 400px;
   position: relative;
-  top: 35px;
+  top: 125px;
   z-index: 9999;
 }
 footer .testimony .testimony-text .testimony-text-quote {
-  position: relative;
-  bottom: 15%;
-  padding-top: 10px;
   width: 85%;
+  max-height: 400px;
 }
 footer .testimony .testimony-text .position-ceo {
   padding: 20px 0;
@@ -648,8 +650,8 @@ footer .testimony .testimony-text .position-ceo {
 footer .testimony .map {
   overflow: hidden;
   position: relative;
-  bottom: 120px;
-  height: 710px;
+  bottom: 45px;
+  height: 800px;
 }
 footer .footer-wrapper {
   display: flex;
@@ -741,10 +743,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
     height: 540px;
   }
   footer .testimony .testimony-text figure {
-    bottom: 16%;
-  }
-  footer .testimony .map .google-map {
-    right: 25%;
+    bottom: 23%;
   }
   footer .footer-wrapper {
     height: 380px;
@@ -758,19 +757,22 @@ footer .footer-wrapper .footer-newsletter .followers a {
     width: 66%;
   }
   footer .testimony .testimony-text figure {
-    bottom: 10%;
+    bottom: 18%;
   }
 }
 @media screen and (max-width: 996px) {
-  header .nav-wrapper nav {
-    display: none;
-  }
   .menu {
     height: fit-content;
   }
+  .menu .menu-wrapper .menu-title {
+    width: 80%;
+  }
+  .menu .menu-wrapper .menu-title .menu-nav {
+    padding-bottom: 100px;
+  }
   .menu .menu-wrapper .menu-display {
     bottom: 100px;
-    width: 60%;
+    width: 80%;
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes {
     flex-flow: column;
@@ -778,30 +780,42 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
     width: 80%;
+    height: 165px;
   }
-  /*
-  .background-image-menu{
-
-  }
-  */
   .booking .booking-wrapper {
     flex-flow: column;
     align-items: center;
     height: fit-content;
-    width: 60%;
+    width: 80%;
   }
   .booking .booking-wrapper .booking-time, .booking .booking-wrapper .booking-form {
     width: 100%;
   }
   .booking .booking-wrapper .booking-form {
-    height: 600px;
+    height: 800px;
   }
-  footer {
-    height: 1500px;
+  .booking .booking-wrapper .booking-form h2 {
+    font-size: 35px;
+    height: 30px;
+  }
+  .booking .booking-wrapper .booking-form h3 {
+    font-size: 25px;
+  }
+  .booking .booking-wrapper .booking-form .booking-form-inputs .row {
+    flex-flow: column;
+    align-items: center;
+  }
+  .booking .booking-wrapper .booking-form .booking-form-inputs .row input, .booking .booking-wrapper .booking-form .booking-form-inputs .row select {
+    width: 75%;
   }
   footer .testimony .testimony-text {
-    width: 60%;
-    height: 650px;
+    width: 80%;
+  }
+  footer .testimony .testimony-text figure {
+    bottom: 18%;
+  }
+  footer .testimony .testimony-text .testimony-text-quote {
+    font-size: 15px;
   }
   footer .footer-wrapper {
     align-items: center;
@@ -811,10 +825,98 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   footer .footer-wrapper .footer-newsletter {
     width: 100%;
-    padding-left: 33%;
+    padding-left: 10%;
   }
   footer .footer-wrapper .footer-newsletter .followers {
     padding: 40px 0;
+  }
+}
+@media screen and (max-width: 799px) {
+  header .nav-wrapper nav {
+    display: none;
+  }
+  header .presentation {
+    top: 22%;
+  }
+  header .presentation h2 {
+    height: 45px;
+    font-size: 40px;
+  }
+  header .presentation h1 {
+    font-size: 40px;
+  }
+  header .presentation p {
+    width: 75%;
+    text-align: center;
+    font-size: 15px;
+  }
+  footer .testimony .testimony-text {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  header .nav-wrapper .social-links a {
+    margin: 0 5px;
+  }
+  .discover .discover-text .discover-text-paragraph {
+    font-size: 15px;
+    padding: 0;
+  }
+  .discover .discover-text .discover-plate {
+    padding: 15px 0;
+  }
+  .menu-nav-elements {
+    font-size: 12px;
+  }
+  .menu-desc h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .menu-desc p {
+    font-size: 12px;
+    width: 90%;
+  }
+  .booking .booking-wrapper .booking-time .booking-hours .booking-hours-open .booking-days {
+    font-size: 15px;
+  }
+  .booking .booking-wrapper .booking-time .booking-hours .booking-hours-open p {
+    font-size: 12px;
+  }
+  .booking .booking-wrapper .booking-time .booking-hours .phone-number {
+    font-size: 15px;
+  }
+  footer {
+    height: 1250px;
+  }
+  footer .testimony {
+    padding-top: 0;
+  }
+  footer .testimony .testimony-text {
+    height: 500px;
+  }
+  footer .testimony .testimony-text figure {
+    bottom: 15%;
+    margin-bottom: 35px;
+  }
+  footer .testimony .testimony-text .testimony-text-quote {
+    position: relative;
+    bottom: 10%;
+    font-size: 12px;
+  }
+  footer .testimony .testimony-text .testimony-ceo {
+    position: relative;
+    bottom: 7%;
+  }
+  footer .testimony .testimony-text .testimony-ceo h3 {
+    font-size: 25px;
+  }
+  footer .testimony .testimony-text .testimony-ceo .position-ceo {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 399px) {
+  footer .testimony .testimony-text figure {
+    bottom: 12%;
   }
 }
 

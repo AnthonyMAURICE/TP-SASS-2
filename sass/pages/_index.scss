@@ -353,12 +353,13 @@ header{
 /* footer */
 
 footer{
-    height: 1165px;
+    height: 1100px;
     overflow: hidden;
     .testimony{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
         width: 100%;
-        padding-top: 50px;
-        position: relative;
         .testimony-text{
             background-color: $color-primary;
             width: 65%;
@@ -367,16 +368,13 @@ footer{
             flex-flow: column;
             align-items: center;
             justify-content: center;
-            height: 500px;
+            height: 400px;
             position: relative;
-            top: 35px;
+            top: 125px;
             z-index: 9999;
             .testimony-text-quote{
-                position: relative;
-                bottom: 15%;
-                padding-top: 10px;
                 width: 85%;
-                
+                max-height: 400px;
             }
             .position-ceo{
                 padding: 20px 0;
@@ -386,8 +384,8 @@ footer{
         .map{
             overflow: hidden;
             position: relative;
-            bottom: 120px;
-            height: 710px;
+            bottom: 45px;
+            height: 800px;
             
             
         }
