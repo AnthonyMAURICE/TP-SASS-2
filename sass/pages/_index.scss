@@ -118,6 +118,8 @@ header{
     position: relative;
     height: 1140px;
     .menu-wrapper{
+        display: grid;
+        justify-items: center;
         .menu-title{
             width: 50%;
             margin: auto;

@@ -112,4 +112,71 @@
 
 @media screen and (max-width: 996px){
 
+    header{
+        .nav-wrapper{
+            nav{
+                display: none;
+            }
+        }
+    }
+
+    .menu{
+        height: fit-content;
+        .menu-wrapper{
+            .menu-display{
+                bottom: 100px;
+                width: 60%;
+                .menu-display-dishes{
+                    flex-flow: column;
+                    align-items: center;
+                    .dish{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+    /*
+    .background-image-menu{
+
+    }
+    */
+
+    .booking{
+        .booking-wrapper{
+            flex-flow: column;
+            align-items: center;
+            height: fit-content;
+            width: 60%;
+            .booking-time, .booking-form{
+                width: 100%;
+            }
+            .booking-form{
+                height: 600px;
+            }
+        }
+    }
+
+    footer{
+        height: 1500px;
+        .testimony{
+            .testimony-text{
+                width: 60%;
+                height: 650px;
+            }
+        }
+        .footer-wrapper{
+            align-items: center;
+            .footer-text{
+                display: none;
+            }
+            .footer-newsletter{
+                width: 100%;
+                padding-left: 33%;
+                .followers{
+                    padding: 40px 0;
+                }
+            }
+        }
+    }
 }

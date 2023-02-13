@@ -396,6 +396,10 @@ header .presentation p {
   position: relative;
   height: 1140px;
 }
+.menu .menu-wrapper {
+  display: grid;
+  justify-items: center;
+}
 .menu .menu-wrapper .menu-title {
   width: 50%;
   margin: auto;
@@ -755,6 +759,62 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   footer .testimony .testimony-text figure {
     bottom: 10%;
+  }
+}
+@media screen and (max-width: 996px) {
+  header .nav-wrapper nav {
+    display: none;
+  }
+  .menu {
+    height: fit-content;
+  }
+  .menu .menu-wrapper .menu-display {
+    bottom: 100px;
+    width: 60%;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes {
+    flex-flow: column;
+    align-items: center;
+  }
+  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
+    width: 80%;
+  }
+  /*
+  .background-image-menu{
+
+  }
+  */
+  .booking .booking-wrapper {
+    flex-flow: column;
+    align-items: center;
+    height: fit-content;
+    width: 60%;
+  }
+  .booking .booking-wrapper .booking-time, .booking .booking-wrapper .booking-form {
+    width: 100%;
+  }
+  .booking .booking-wrapper .booking-form {
+    height: 600px;
+  }
+  footer {
+    height: 1500px;
+  }
+  footer .testimony .testimony-text {
+    width: 60%;
+    height: 650px;
+  }
+  footer .footer-wrapper {
+    align-items: center;
+  }
+  footer .footer-wrapper .footer-text {
+    display: none;
+  }
+  footer .footer-wrapper .footer-newsletter {
+    width: 100%;
+    padding-left: 33%;
+  }
+  footer .footer-wrapper .footer-newsletter .followers {
+    padding: 40px 0;
   }
 }
 
