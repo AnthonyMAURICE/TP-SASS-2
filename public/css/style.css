@@ -264,7 +264,7 @@ button:hover {
 .pic-caption2 {
   background-color: rgb(33, 32, 30);
   padding: 20px 25px;
-  width: 20%;
+  width: 90px;
   height: 25%;
   color: rgb(238, 238, 238);
   text-align: center;
@@ -388,9 +388,6 @@ header .presentation p {
 .discover .discover-text .discover-head {
   padding: 25px;
   overflow: hidden;
-}
-.discover .discover-text .discover-head img {
-  margin-top: 30px;
 }
 
 /* section 2 : menu */
@@ -554,6 +551,7 @@ header .presentation p {
 }
 .event-wrapper .event-figures .event-figures-columns .event-figures-first {
   height: 500px;
+  width: 100%;
 }
 .event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row {
   display: flex;
@@ -561,13 +559,15 @@ header .presentation p {
   background-color: rgb(238, 238, 238);
   align-items: center;
   text-align: left;
-  width: 745px;
   height: 250px;
 }
 .event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row .event-image {
   height: 220px;
   width: 350px;
   display: flex;
+}
+.event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row .event-caption {
+  padding: 10px;
 }
 .event-wrapper .event-figures .event-figures-columns .event-figures-first .first-column-row .event-caption h3 {
   margin-left: 10px;
@@ -746,293 +746,15 @@ footer .footer-wrapper .footer-newsletter .followers a {
     height: 380px;
   }
 }
-@media screen and (max-width: 1200px) {
-  /* header */
-  header .nav-wrapper {
-    padding: 0 15px;
-  }
-  header .nav-wrapper nav a {
-    font-size: 13px;
-    padding: 0 5px;
-  }
-  header .nav-wrapper .social-links {
-    display: flex;
-  }
-  /* section 2 */
-  .menu {
-    height: 1750px;
-  }
-  .menu .menu-wrapper .menu-title {
-    width: 80%;
-  }
-  .menu .menu-wrapper .menu-title .menu-nav {
-    font-size: 15px;
-    justify-content: space-around;
-  }
-  .menu .menu-wrapper .menu-display {
-    width: 70%;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes {
-    flex-flow: column;
-    align-items: center;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
-    height: 160px;
-    width: 100%;
-    padding: 0 5%;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
-    width: 60%;
-    padding-left: 15px;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc h3 {
-    font-size: 20px;
-    line-height: 1;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
-    padding: 5px 0;
-    font-size: 20px;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic {
-    width: 70px;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic img {
-    width: 70px;
-    height: 70px;
-  }
-  .menu .menu-wrapper .background-image-menu {
-    bottom: 3%;
-  }
-  /* section 3 */
-  .booking {
-    height: 1450px;
-    padding: 0;
-  }
-  .booking .booking-wrapper {
-    flex-flow: column;
-    height: 1500px;
-    width: 70%;
-  }
+@media screen and (max-width: 1140px) {
   .booking .booking-wrapper .booking-time {
-    width: 100%;
+    width: 34%;
   }
   .booking .booking-wrapper .booking-form {
-    width: 100%;
-    height: 800px;
-    padding-bottom: 35px;
-  }
-  .booking .booking-wrapper .booking-form .booking-form-title {
-    padding-top: 25px;
-  }
-  .booking .booking-wrapper .booking-form .booking-form-inputs .row {
-    flex-flow: column;
-    align-items: center;
-  }
-  .booking .booking-wrapper .booking-form .booking-form-inputs .row input, .booking .booking-wrapper .booking-form .booking-form-inputs .row select {
-    width: 85%;
-    max-width: 300px;
-    text-align: center;
-  }
-  /* footer */
-  footer {
-    height: 1600px;
-  }
-  footer .testimony .testimony-text {
-    width: 70%;
-    height: 700px;
-  }
-  footer .testimony .testimony-text figure {
-    bottom: 18%;
-  }
-  footer .testimony .map {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 900px;
-  }
-  footer .testimony .map .google-map {
-    bottom: 20%;
-    right: 0%;
-  }
-  footer .footer-wrapper {
-    height: 450px;
-  }
-  footer .footer-wrapper .footer-text {
-    padding-left: 5%;
-  }
-  footer .footer-wrapper .footer-newsletter {
-    padding: 70px 40px;
-    justify-content: flex-start;
-  }
-  footer .footer-wrapper .footer-newsletter .followers {
-    padding: 80px 0;
-  }
-  footer .footer-wrapper .footer-newsletter .followers h3 {
-    padding-right: 10px;
-  }
-  footer .footer-wrapper .footer-newsletter .followers a {
-    padding: 0 10px;
-  }
-}
-@media screen and (max-width: 850px) {
-  footer .testimony .testimony-text figure {
-    bottom: 15%;
-  }
-}
-@media screen and (max-width: 800px) {
-  footer .testimony .testimony-text figure {
-    bottom: 14%;
-  }
-}
-/* mobiles */
-@media screen and (max-width: 600px) {
-  header .nav-wrapper {
-    width: 80%;
-    justify-content: space-around;
-  }
-  header .nav-wrapper nav {
-    display: none;
-  }
-  header .nav-wrapper .social-links {
-    display: flex;
-  }
-  footer .testimony .testimony-text {
-    height: 800px;
+    width: 66%;
   }
   footer .testimony .testimony-text figure {
     bottom: 10%;
-  }
-  footer .footer-wrapper .footer-text {
-    display: none;
-  }
-  footer .footer-wrapper .footer-newsletter {
-    width: 100%;
-    padding: 15px 30px 30px 30px;
-    justify-content: flex-start;
-  }
-  footer .footer-wrapper .footer-newsletter .form {
-    padding-bottom: 50px;
-  }
-  footer .footer-wrapper .footer-newsletter .form input {
-    width: 150px;
-  }
-  footer .footer-wrapper .footer-newsletter .followers {
-    padding: 0;
-  }
-}
-@media screen and (max-width: 500px) {
-  /* header */
-  header .presentation {
-    text-align: center;
-    top: 20%;
-  }
-  header .presentation h1 {
-    font-size: 50px;
-  }
-  header .presentation h2 {
-    height: 60px;
-  }
-  header .presentation p {
-    width: 80%;
-    word-spacing: 8px;
-    letter-spacing: 4px;
-    font-size: 15px;
-  }
-  .discover {
-    height: 700px;
-  }
-  .menu .menu-wrapper .menu-display {
-    width: 80%;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
-    margin: 0;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic .img {
-    height: 75px;
-    width: 75px;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc h3 {
-    font-size: 12px;
-    width: 85%;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
-    font-size: 12px;
-  }
-  .booking .booking-wrapper {
-    width: 80%;
-  }
-  .booking .booking-wrapper .booking-time .booking-hours .booking-hours-open h3, .booking .booking-wrapper .booking-time .booking-hours .booking-hours-open p {
-    font-size: 15px;
-  }
-  footer {
-    height: 1900px;
-  }
-  footer .testimony {
-    padding-top: 100px;
-  }
-  footer .testimony .testimony-text {
-    width: 90%;
-    height: 750px;
-  }
-  footer .testimony .testimony-text figure {
-    bottom: 6%;
-  }
-  footer .testimony .testimony-text .testimony-ceo {
-    position: relative;
-    bottom: 11%;
-  }
-  footer .testimony .map {
-    height: 1030px;
-    bottom: 200px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .discover {
-    height: 750px;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish {
-    justify-content: space-evenly;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic {
-    width: 45%;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .dish-pic .img {
-    height: 50px;
-    width: 50px;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
-    width: 220px;
-    padding-left: 5px;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc h3 {
-    font-size: 12px;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc p {
-    font-size: 12px;
-  }
-  footer .testimony .testimony-text {
-    height: 900px;
-  }
-  footer .testimony .testimony-text figure {
-    bottom: 12%;
-  }
-}
-@media screen and (max-width: 350px) {
-  header .presentation {
-    top: 22%;
-  }
-  header .presentation h1 {
-    font-size: 30px;
-  }
-  header .presentation h2 {
-    font-size: 30px;
-    height: 30px;
-  }
-  .menu .menu-wrapper .menu-display .menu-display-dishes .dish .menu-desc {
-    width: 180px;
-  }
-  footer .testimony .testimony-text figure {
-    bottom: 7%;
   }
 }
 
