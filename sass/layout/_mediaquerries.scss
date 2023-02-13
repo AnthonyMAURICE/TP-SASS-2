@@ -81,7 +81,7 @@
 }
 
 @media screen and (max-width: 1140px){
-
+    /* tablettes avec grande résolution, format paysage */
     .booking{
         .booking-wrapper{
             .booking-time{
@@ -106,9 +106,7 @@
 }
 
 @media screen and (max-width: 996px){
-
-    
-
+    /* tablettes format portrait */
     .menu{
         height: fit-content;
         .menu-wrapper{
@@ -170,7 +168,7 @@
             .testimony-text{
                 width: 80%;
                 figure{
-                    bottom: 18%;
+                    bottom: 25%;
                 }
                 .testimony-text-quote{
                     font-size: 15px;
@@ -194,6 +192,7 @@
 }
 
 @media screen and (max-width: 799px){
+    /* mobiles format paysage */
     header{
         .nav-wrapper{
             nav{
@@ -221,14 +220,23 @@
         .testimony{
             .testimony-text{
                 width: 80%;
-                
+                figure{
+                    bottom: 18%;
+                }
+            }
+            .map{
+                .google-map{
+                    width: 850px;
+                    height: 500px;
+                    bottom: 0%;
+                }
             }
         }
     }
 }
 
 @media screen and (max-width: 450px){
-
+    /* mobile format portrait à grande résolution*/
     header{
         .nav-wrapper{
             .social-links{
@@ -319,11 +327,30 @@
 }
 
 @media screen and (max-width: 399px){
+    /* mobiles format portrait */
     footer{
         .testimony{
             .testimony-text{
                 figure{
                     bottom: 12%;
+                }
+            }
+        }
+        .footer-wrapper{
+            .footer-newsletter{
+                .form{
+                    h3{
+                        font-size: 15px;
+                    }
+                }
+                .followers{
+                    justify-content: space-between;
+                    h3{
+                        font-size: 15px;
+                    }
+                    a{
+                        padding: 0 10px;
+                    }
                 }
             }
         }

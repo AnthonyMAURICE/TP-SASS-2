@@ -750,6 +750,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
 }
 @media screen and (max-width: 1140px) {
+  /* tablettes avec grande résolution, format paysage */
   .booking .booking-wrapper .booking-time {
     width: 34%;
   }
@@ -761,6 +762,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
 }
 @media screen and (max-width: 996px) {
+  /* tablettes format portrait */
   .menu {
     height: fit-content;
   }
@@ -812,7 +814,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
     width: 80%;
   }
   footer .testimony .testimony-text figure {
-    bottom: 18%;
+    bottom: 25%;
   }
   footer .testimony .testimony-text .testimony-text-quote {
     font-size: 15px;
@@ -832,6 +834,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
 }
 @media screen and (max-width: 799px) {
+  /* mobiles format paysage */
   header .nav-wrapper nav {
     display: none;
   }
@@ -853,8 +856,17 @@ footer .footer-wrapper .footer-newsletter .followers a {
   footer .testimony .testimony-text {
     width: 80%;
   }
+  footer .testimony .testimony-text figure {
+    bottom: 18%;
+  }
+  footer .testimony .map .google-map {
+    width: 850px;
+    height: 500px;
+    bottom: 0%;
+  }
 }
 @media screen and (max-width: 450px) {
+  /* mobile format portrait à grande résolution*/
   header .nav-wrapper .social-links a {
     margin: 0 5px;
   }
@@ -915,8 +927,21 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
 }
 @media screen and (max-width: 399px) {
+  /* mobiles format portrait */
   footer .testimony .testimony-text figure {
     bottom: 12%;
+  }
+  footer .footer-wrapper .footer-newsletter .form h3 {
+    font-size: 15px;
+  }
+  footer .footer-wrapper .footer-newsletter .followers {
+    justify-content: space-between;
+  }
+  footer .footer-wrapper .footer-newsletter .followers h3 {
+    font-size: 15px;
+  }
+  footer .footer-wrapper .footer-newsletter .followers a {
+    padding: 0 10px;
   }
 }
 
