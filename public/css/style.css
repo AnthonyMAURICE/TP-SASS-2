@@ -938,9 +938,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
 }
 @media screen and (max-width: 350px) {
   /* mobiles avec faible résolution */
-  footer .testimony .testimony-text figure {
-    bottom: 8%;
-  }
   footer .testimony .testimony-text .testimony-text-quote {
     font-size: 13px;
   }
