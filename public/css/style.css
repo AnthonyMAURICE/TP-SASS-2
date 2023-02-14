@@ -40,10 +40,6 @@ nav {
   color: rgb(166, 114, 69);
 }
 
-.menu-desc a {
-  color: rgb(33, 32, 30);
-}
-
 .store {
   font-weight: 900;
 }
@@ -94,12 +90,6 @@ nav {
   text-underline-offset: 10px;
 }
 
-.price {
-  color: rgb(166, 114, 69);
-  font-weight: 900;
-  font-size: 20px;
-}
-
 .menu .menu-wrapper .menu-title h2 {
   font-size: 40px;
   font-weight: 400;
@@ -114,6 +104,15 @@ nav {
 .menu-desc p {
   font-size: 20px;
   width: 85%;
+}
+.menu-desc a {
+  color: rgb(33, 32, 30);
+}
+
+.price {
+  color: rgb(166, 114, 69);
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .booking .booking-wrapper .booking-time .booking-hours h2 {

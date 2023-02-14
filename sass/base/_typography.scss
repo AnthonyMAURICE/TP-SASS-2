@@ -18,7 +18,6 @@ h2{
     font-weight: 400;
 }
 
-
 h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -27,7 +26,6 @@ h3{
 p{
     font-family: 'Roboto', sans-serif;
 }
-
 
 nav{
     font-family: 'Roboto', sans-serif;
@@ -45,14 +43,6 @@ nav{
         }
     }
     
-}
-
-
-
-.menu-desc{
-    a{
-        color: $color-background;
-    }
 }
 
 .store{
@@ -111,12 +101,6 @@ nav{
     text-underline-offset: 10px;
 }
 
-.price{
-    color: $color-secondary;
-    font-weight: 900;
-    font-size: 20px;
-}
-
 .menu{
     .menu-wrapper{
         .menu-title{
@@ -127,6 +111,7 @@ nav{
         }
     }
 }
+
 .menu-desc{
     letter-spacing: normal;
     h3{
@@ -136,6 +121,15 @@ nav{
         font-size: 20px;
         width: 85%;
     }
+    a{
+        color: $color-background;
+    }
+}
+
+.price{
+    color: $color-secondary;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .booking{
@@ -220,7 +214,6 @@ footer{
                 text-align: center;
                 .quote{
                     font-size: 20px;
-
                 }
             }
             .testimony-ceo{
@@ -258,5 +251,3 @@ footer{
         }
     }
 }
-
-
