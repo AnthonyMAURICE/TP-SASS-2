@@ -18,6 +18,7 @@ h2{
     font-weight: 400;
 }
 
+
 h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -46,6 +47,8 @@ nav{
     
 }
 
+
+
 .menu-desc{
     a{
         color: $color-background;
@@ -69,6 +72,13 @@ nav{
     p{
         letter-spacing: 5px;
         font-size: 20px;
+    }
+    .welcome{
+        font-family: 'Allura', cursive;
+        color: $color-secondary;
+        font-size: 55px;
+        height: 45px;
+        font-weight: 400;
     }
 }
 
