@@ -31,25 +31,6 @@ nav {
   font-size: 15px;
 }
 
-footer .footer-wrapper h2 {
-  font-size: 50px;
-}
-footer .footer-wrapper p {
-  color: rgb(238, 238, 238);
-  font-size: 18px;
-  line-height: 2;
-}
-footer .footer-wrapper h3 {
-  color: rgb(238, 238, 238);
-}
-footer .footer-wrapper a {
-  color: rgb(89, 89, 86);
-}
-footer .footer-wrapper a:hover {
-  color: rgb(166, 114, 69);
-  font-size: large;
-}
-
 /* Typographie, particulier */
 .logo {
   font-family: "Allura", cursive;
@@ -199,6 +180,24 @@ footer .testimony .testimony-text .testimony-ceo h3 {
 }
 footer .testimony .testimony-text .testimony-ceo .position-ceo {
   font-size: 25px;
+}
+footer .footer-wrapper h2 {
+  font-size: 50px;
+}
+footer .footer-wrapper p {
+  color: rgb(238, 238, 238);
+  font-size: 18px;
+  line-height: 2;
+}
+footer .footer-wrapper h3 {
+  color: rgb(238, 238, 238);
+}
+footer .footer-wrapper a {
+  color: rgb(89, 89, 86);
+}
+footer .footer-wrapper a:hover {
+  color: rgb(166, 114, 69);
+  font-size: large;
 }
 
 button {

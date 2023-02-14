@@ -33,29 +33,6 @@ nav{
     font-size: 15px;
 }
 
-footer{
-    .footer-wrapper{
-        h2{
-            font-size: 50px;
-        }
-        p{
-            color: $color-primary;
-            font-size: 18px;
-            line-height: 2;
-        }
-        h3{
-            color: $color-primary;
-        }
-        a{
-            color: $color-footer;
-            &:hover{
-                color: $color-secondary;
-                font-size: large;
-            }
-        }
-    }
-}
-
 /* Typographie, particulier */
 
 .logo{
@@ -241,6 +218,26 @@ footer{
                 }
             }
             
+        }
+    }
+    .footer-wrapper{
+        h2{
+            font-size: 50px;
+        }
+        p{
+            color: $color-primary;
+            font-size: 18px;
+            line-height: 2;
+        }
+        h3{
+            color: $color-primary;
+        }
+        a{
+            color: $color-footer;
+            &:hover{
+                color: $color-secondary;
+                font-size: large;
+            }
         }
     }
 }
