@@ -8,18 +8,14 @@
     margin: 15px 0;
 }
 
-.discover-plate{
-    padding: 25px 0 25px 0;
-}
-
 .avatar{
-    width: 100px;
+    width: 90px;
     border-radius: 50%;
 }
 
 .discover-img{
     position: relative;
-    bottom: 85px;
+    bottom: 87px;
     width: 50%;
 }
 
@@ -59,8 +55,8 @@
 .pic-caption2{
     background-color: $color-background;
     padding: 20px 25px;
-    width: 20%;
-    height: 20%;
+    width: 90px;
+    height: 25%;
     color: $color-primary;
     text-align: center;
 }
@@ -72,22 +68,18 @@
     }
 }
 
-
-
-
 footer{
     .testimony{
         .testimony-text{
             figure{
                 position: relative;
-                bottom: 15%;
-                margin-bottom: 60px;
+                bottom: 13%;
             }
         }
         .map{
             .google-map{
                 position: relative;
-                bottom: 45%;
+                bottom: 38%;
             }
         }
     }
@@ -97,5 +89,3 @@ footer{
         }
     }
 }
-
-
