@@ -233,6 +233,10 @@
     }
 }
 
+.avatar{
+    width: 75px;
+}
+
 @media screen and (max-width: 450px){
     /* mobile format portrait à grande résolution*/
     header{
@@ -347,6 +351,19 @@
                     a{
                         padding: 0 10px;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 350px){
+    /* mobiles avec faible résolution */
+    footer{
+        .testimony{
+            .testimony-text{
+                figure{
+                    bottom: 10%;
                 }
             }
         }
