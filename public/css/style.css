@@ -59,6 +59,7 @@ nav {
 }
 .presentation p {
   letter-spacing: 5px;
+  font-size: 20px;
 }
 
 .discover .discover-title {
@@ -111,10 +112,14 @@ nav {
 .booking .booking-wrapper .booking-time .booking-hours h2 {
   font-size: 50px;
 }
-.booking .booking-days {
+.booking .booking-wrapper .booking-time .booking-hours .booking-open {
+  font-size: 30px;
+}
+.booking .booking-wrapper .booking-time .booking-hours .booking-hours-open .booking-days {
+  font-size: 20px;
   color: rgb(166, 114, 69);
 }
-.booking .phone-number {
+.booking .booking-wrapper .booking-time .booking-hours .phone-number {
   color: rgb(166, 114, 69);
   font-size: 20px;
   font-weight: 900;
@@ -357,9 +362,6 @@ header .presentation img:hover + p {
   color: rgb(166, 114, 69);
   font-weight: 900;
 }
-header .presentation p {
-  font-size: 20px;
-}
 
 /* fin header */
 /* section 1 */
@@ -496,9 +498,6 @@ header .presentation p {
 .booking .booking-wrapper .booking-time .booking-hours h2 {
   height: 40px;
 }
-.booking .booking-wrapper .booking-time .booking-hours .booking-open {
-  font-size: 30px;
-}
 .booking .booking-wrapper .booking-time .booking-hours .booking-hours-title img {
   margin: 15px;
 }
@@ -506,7 +505,6 @@ header .presentation p {
   margin-bottom: 25px;
 }
 .booking .booking-wrapper .booking-time .booking-hours .booking-hours-open .booking-days {
-  font-size: 22px;
   margin: 15px 0;
 }
 .booking .booking-wrapper .booking-form {
@@ -814,7 +812,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
     width: 80%;
   }
   footer .testimony .testimony-text figure {
-    bottom: 25%;
+    bottom: 22%;
   }
   footer .testimony .testimony-text .testimony-text-quote {
     font-size: 15px;
@@ -869,7 +867,7 @@ footer .footer-wrapper .footer-newsletter .followers a {
   width: 75px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 492px) {
   /* mobile format portrait à grande résolution*/
   header .nav-wrapper .social-links a {
     margin: 0 5px;
@@ -929,12 +927,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   footer .testimony .testimony-text .testimony-ceo .position-ceo {
     font-size: 15px;
   }
-}
-@media screen and (max-width: 399px) {
-  /* mobiles format portrait */
-  footer .testimony .testimony-text figure {
-    bottom: 12%;
-  }
   footer .footer-wrapper .footer-newsletter .form h3 {
     font-size: 15px;
   }
@@ -946,6 +938,12 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   footer .footer-wrapper .footer-newsletter .followers a {
     padding: 0 10px;
+  }
+}
+@media screen and (max-width: 399px) {
+  /* mobiles format portrait */
+  footer .testimony .testimony-text figure {
+    bottom: 12%;
   }
 }
 @media screen and (max-width: 350px) {

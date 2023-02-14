@@ -68,9 +68,6 @@ header{
                 font-weight: 900;
             }
         }
-        p{
-            font-size: 20px;
-        }
     }
 }
 
@@ -215,9 +212,7 @@ header{
                 h2{
                     height: 40px;
                 }
-                .booking-open{
-                    font-size: 30px;
-                }
+                
                 .booking-hours-title{
                     img{
                         margin: 15px;
@@ -226,9 +221,8 @@ header{
                 .booking-hours-open{
                     margin-bottom: 25px;
                     .booking-days{
-                    font-size: 22px;
-                    margin: 15px 0;
-                }
+                        margin: 15px 0;
+                    }
                 }
                 
             }

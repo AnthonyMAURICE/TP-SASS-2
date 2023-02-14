@@ -166,7 +166,7 @@
             .testimony-text{
                 width: 80%;
                 figure{
-                    bottom: 25%;
+                    bottom: 22%;
                 }
                 .testimony-text-quote{
                     font-size: 15px;
@@ -237,7 +237,7 @@
     width: 75px;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 492px){
     /* mobile format portrait à grande résolution*/
     header{
         .nav-wrapper{
@@ -323,19 +323,6 @@
                 }
             }
         }
-    }
-}
-
-@media screen and (max-width: 399px){
-    /* mobiles format portrait */
-    footer{
-        .testimony{
-            .testimony-text{
-                figure{
-                    bottom: 12%;
-                }
-            }
-        }
         .footer-wrapper{
             .footer-newsletter{
                 .form{
@@ -351,6 +338,19 @@
                     a{
                         padding: 0 10px;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 399px){
+    /* mobiles format portrait */
+    footer{
+        .testimony{
+            .testimony-text{
+                figure{
+                    bottom: 12%;
                 }
             }
         }
