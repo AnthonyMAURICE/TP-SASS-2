@@ -86,10 +86,14 @@ nav{
     .discover-text{
         .discover-text-paragraph{
             text-align: center;
-            font-size: large;
+            font-size: 20px;
+        }
+        h3{
+            font-size: 20px;
         }
         .cook{
             color: $color-tertiary;
+            font-size: 13px;
             font-weight: 900;
         }
     }

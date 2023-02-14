@@ -77,10 +77,14 @@ nav {
 }
 .discover .discover-text .discover-text-paragraph {
   text-align: center;
-  font-size: large;
+  font-size: 20px;
+}
+.discover .discover-text h3 {
+  font-size: 20px;
 }
 .discover .discover-text .cook {
   color: rgb(187, 200, 218);
+  font-size: 13px;
   font-weight: 900;
 }
 
@@ -235,12 +239,8 @@ button:hover {
   margin: 15px 0;
 }
 
-.discover-plate {
-  padding: 25px 0 25px 0;
-}
-
 .avatar {
-  width: 100px;
+  width: 90px;
   border-radius: 50%;
 }
 
@@ -389,16 +389,14 @@ header .presentation img:hover + p {
   align-items: center;
   justify-content: space-between;
   margin: 20px;
-  padding: 30px;
+  padding: 30px 0;
   width: 50%;
   border: 1px dashed rgb(166, 114, 69);
 }
-.discover .discover-text .discover-text-paragraph {
-  padding: 0 30px;
-}
-.discover .discover-text .discover-head {
-  padding-top: 5%;
-  overflow: hidden;
+.discover .discover-text .cook-stephens {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 /* section 2 : menu */
@@ -868,11 +866,10 @@ footer .footer-wrapper .footer-newsletter .followers a {
     height: 500px;
     bottom: 0%;
   }
+  .avatar {
+    width: 75px;
+  }
 }
-.avatar {
-  width: 75px;
-}
-
 @media screen and (max-width: 492px) {
   /* mobile format portrait à grande résolution*/
   header .nav-wrapper .social-links a {

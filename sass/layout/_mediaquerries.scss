@@ -231,11 +231,12 @@
             }
         }
     }
+    .avatar{
+        width: 75px;
+    }
 }
 
-.avatar{
-    width: 75px;
-}
+
 
 @media screen and (max-width: 492px){
     /* mobile format portrait à grande résolution*/
