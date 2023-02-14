@@ -235,7 +235,7 @@ button:hover {
 
 .discover-img {
   position: relative;
-  bottom: 85px;
+  bottom: 87px;
   width: 50%;
 }
 
@@ -365,7 +365,7 @@ header .presentation p {
 /* section 1 */
 .discover {
   display: flex;
-  height: 560px;
+  height: 545px;
   overflow: hidden;
   background-color: rgb(238, 238, 238);
 }
@@ -389,7 +389,7 @@ header .presentation p {
   padding: 0 30px;
 }
 .discover .discover-text .discover-head {
-  padding: 25px;
+  padding-top: 5%;
   overflow: hidden;
 }
 
