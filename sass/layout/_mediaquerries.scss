@@ -1,6 +1,7 @@
 /* media querries */
 
 @media screen and (max-width: 1280px){
+    /* laptop avec faible résolution, tablettes format paysage */
     /* header */
     header{
         .nav-wrapper{
@@ -13,19 +14,20 @@
     /* section 1 */
 
     .discover{
-        height: 600px;
         .discover-text{
             width: 100%;
+            
         }
         p{
+            width: 80%;
             padding-bottom: 20px;
+            
         }
         .discover-img{
             display: none;
         }
     }
 
-    
     /* section 2 */
 
     .menu{
@@ -68,8 +70,9 @@
             .testimony-text{
                 width: 80%;
                 height: 540px;
-                figure{
-                    bottom: 23%;
+                .testimony-text-quote{
+                    position: relative;
+                    bottom: 5%;
                 }
             }
         }
@@ -88,16 +91,6 @@
             }
             .booking-form{
                 width: 66%;
-            }
-        }
-    }
-
-    footer{
-        .testimony{
-            .testimony-text{
-                figure{
-                    bottom: 18%;
-                }
             }
         }
     }
@@ -165,9 +158,6 @@
         .testimony{
             .testimony-text{
                 width: 80%;
-                figure{
-                    bottom: 22%;
-                }
                 .testimony-text-quote{
                     font-size: 15px;
                 }
@@ -218,9 +208,6 @@
         .testimony{
             .testimony-text{
                 width: 80%;
-                figure{
-                    bottom: 18%;
-                }
             }
             .map{
                 .google-map{
@@ -302,19 +289,18 @@
         .testimony{
             padding-top: 0;
             .testimony-text{
-                height: 500px;
+                width: 90%;
+                height: 650px;
                 figure{
-                    bottom: 15%;
-                    margin-bottom: 35px;
+                    bottom: 8%;
                 }
                 .testimony-text-quote{
-                    position: relative;
-                    bottom: 10%;
-                    font-size: 12px;
+                    
+                    width: 51%;
+                    bottom: 5%;
+                    font-size: 15px;
                 }
                 .testimony-ceo{
-                    position: relative;
-                    bottom: 7%;
                     h3{
                         font-size: 25px;
                     }
@@ -346,12 +332,11 @@
 }
 
 @media screen and (max-width: 399px){
-    /* mobiles format portrait */
     footer{
         .testimony{
             .testimony-text{
-                figure{
-                    bottom: 12%;
+                .testimony-text-quote{
+                    font-size: 14px;
                 }
             }
         }
@@ -364,7 +349,10 @@
         .testimony{
             .testimony-text{
                 figure{
-                    bottom: 10%;
+                    bottom: 8%;
+                }
+                .testimony-text-quote{
+                    font-size: 13px;
                 }
             }
         }

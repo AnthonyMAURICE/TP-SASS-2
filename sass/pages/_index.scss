@@ -34,7 +34,6 @@ header{
                     text-underline-offset: 5px;
                     color: $color-secondary;
                 }
-
             }
         }
         .social-links{
@@ -75,8 +74,6 @@ header{
 
 /* section 1 */
 
-
-
 .discover{
     display: flex;
     height: 545px;
@@ -99,11 +96,11 @@ header{
         padding: 30px 0;
         width: 50%;
         border: 1px dashed $color-secondary;
-
         .cook-stephens{
             display: flex;
             flex-flow: column;
             align-items: center;
+            text-align: center;
         }
     }
 }
@@ -152,7 +149,6 @@ header{
                 padding-bottom: 15px;
                 justify-content: center;
                 background-color: $color-primary;
-                
                 .dish{
                     display: flex;
                     margin: 0 15px;
@@ -173,7 +169,6 @@ header{
                         padding-left: 15px;
                         width: 300px;
                     }
-
                 }
             }
             .first-row{
@@ -211,7 +206,6 @@ header{
                 h2{
                     height: 40px;
                 }
-                
                 .booking-hours-title{
                     img{
                         margin: 15px;
@@ -223,7 +217,6 @@ header{
                         margin: 15px 0;
                     }
                 }
-                
             }
         }
         .booking-form{
@@ -252,7 +245,6 @@ header{
                 }
             }
         }
-
     }
 }
 
@@ -286,7 +278,6 @@ header{
                     background-color: $color-primary;
                     align-items: center;
                     text-align: left;
-
                     height: 250px;
                     .event-image{
                         height: 220px;
@@ -332,7 +323,6 @@ header{
                                 padding: 0 40px;
                             }
                         }
-                        
                     }
                 }
             }
@@ -361,7 +351,7 @@ footer{
             display: flex;
             flex-flow: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-evenly;
             height: 400px;
             position: relative;
             top: 125px;
@@ -380,8 +370,6 @@ footer{
             position: relative;
             bottom: 45px;
             height: 800px;
-            
-            
         }
     }
     .footer-wrapper{
@@ -430,4 +418,3 @@ footer{
         }
     }
 }
-

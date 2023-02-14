@@ -291,7 +291,7 @@ button:hover {
 
 footer .testimony .testimony-text figure {
   position: relative;
-  bottom: 15%;
+  bottom: 13%;
 }
 footer .testimony .map .google-map {
   position: relative;
@@ -397,6 +397,7 @@ header .presentation img:hover + p {
   display: flex;
   flex-flow: column;
   align-items: center;
+  text-align: center;
 }
 
 /* section 2 : menu */
@@ -635,7 +636,7 @@ footer .testimony .testimony-text {
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 400px;
   position: relative;
   top: 125px;
@@ -701,18 +702,17 @@ footer .footer-wrapper .footer-newsletter .followers a {
 
 /* media querries */
 @media screen and (max-width: 1280px) {
+  /* laptop avec faible résolution, tablettes format paysage */
   /* header */
   header .nav-wrapper .social-links {
     width: 10%;
   }
   /* section 1 */
-  .discover {
-    height: 600px;
-  }
   .discover .discover-text {
     width: 100%;
   }
   .discover p {
+    width: 80%;
     padding-bottom: 20px;
   }
   .discover .discover-img {
@@ -744,8 +744,9 @@ footer .footer-wrapper .footer-newsletter .followers a {
     width: 80%;
     height: 540px;
   }
-  footer .testimony .testimony-text figure {
-    bottom: 23%;
+  footer .testimony .testimony-text .testimony-text-quote {
+    position: relative;
+    bottom: 5%;
   }
   footer .footer-wrapper {
     height: 380px;
@@ -758,9 +759,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   .booking .booking-wrapper .booking-form {
     width: 66%;
-  }
-  footer .testimony .testimony-text figure {
-    bottom: 18%;
   }
 }
 @media screen and (max-width: 996px) {
@@ -815,9 +813,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   footer .testimony .testimony-text {
     width: 80%;
   }
-  footer .testimony .testimony-text figure {
-    bottom: 22%;
-  }
   footer .testimony .testimony-text .testimony-text-quote {
     font-size: 15px;
   }
@@ -857,9 +852,6 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
   footer .testimony .testimony-text {
     width: 80%;
-  }
-  footer .testimony .testimony-text figure {
-    bottom: 18%;
   }
   footer .testimony .map .google-map {
     width: 850px;
@@ -909,20 +901,16 @@ footer .footer-wrapper .footer-newsletter .followers a {
     padding-top: 0;
   }
   footer .testimony .testimony-text {
-    height: 500px;
+    width: 90%;
+    height: 650px;
   }
   footer .testimony .testimony-text figure {
-    bottom: 15%;
-    margin-bottom: 35px;
+    bottom: 8%;
   }
   footer .testimony .testimony-text .testimony-text-quote {
-    position: relative;
-    bottom: 10%;
-    font-size: 12px;
-  }
-  footer .testimony .testimony-text .testimony-ceo {
-    position: relative;
-    bottom: 7%;
+    width: 51%;
+    bottom: 5%;
+    font-size: 15px;
   }
   footer .testimony .testimony-text .testimony-ceo h3 {
     font-size: 25px;
@@ -944,15 +932,17 @@ footer .footer-wrapper .footer-newsletter .followers a {
   }
 }
 @media screen and (max-width: 399px) {
-  /* mobiles format portrait */
-  footer .testimony .testimony-text figure {
-    bottom: 12%;
+  footer .testimony .testimony-text .testimony-text-quote {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 350px) {
   /* mobiles avec faible résolution */
   footer .testimony .testimony-text figure {
-    bottom: 10%;
+    bottom: 8%;
+  }
+  footer .testimony .testimony-text .testimony-text-quote {
+    font-size: 13px;
   }
 }
 
